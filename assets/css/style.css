@@ -35,6 +35,9 @@
   width: 100%;
   float: left;
 }
+col{
+  float: left;
+}
 
 /* sm */
 @media (min-width: 576px){
@@ -295,7 +298,6 @@ h1 {
     font-size: 64px;
   }
 }
-
 .pl-1{
   padding-left: 1rem;
 }
@@ -322,59 +324,144 @@ h1 {
 .announcements h4{
   color: lightgray;
 }
-
-.announcements img{
-  width: 100%;
-}
-
-.hands-img{
-  max-height: 240px;
-}
-
 .announcements a:hover{
   text-decoration: underline;
 }
 
-.card-text {
-  padding: 15px;
-}
-
-.card {
-  border: 1px solid lightgray;
-  min-height: 400px;
-}
-
-.p-1{
-  padding: 1rem;
-}
-
-.card-content{
-  z-index: 1;
-  background: white;
-  max-width: 440px;
-  padding: 15px;
-}
-
 .card-left{
-  padding-top: 200px;
-
+  padding-top: 171px;
   background-image: url(https://www.bpi.com.ph/content/atom/33f50d91-c898-4666-8a69-e09d571c5dcc/content/Images/Content%20Cards/content_card_clients1.jpg?id=01f0419c-48a1-4c22-88a7-ee4437c90b2e);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  }
+  @media (min-width: 0px){
+    .innera{
+    border: 1px solid gray;
+    min-height: 450px;
+}
+.card-2a{
+    background-clip: border-box;
+    background-size: cover;
+    height: 172px;
+  }
+.card-2a img{
+    height: 172px;
+    width: 100%;
+  }
+  .descriptiona{
+    padding: 24px;
+    font: 16px;
+    line-height: 1.6;
+}
+  .description-contenta {
+    min-height: 200px;
+  }
+
+.descriptiona h2{
+    font-size: 20px;
+    color:#4a4a4a;
+    text-align:justify;
+    margin: 8px 0px;
+  }
+.descriptiona h3{
+      font-size: 16px;
+      margin-bottom: 3px;
+      color:#9b9b9b;
+  }
+.descriptiona p{
+      font-size: 16px;
+      margin-bottom: 16px;
+      color:#9b9b9b;
+  }
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(163, 36, 36);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+a:hover{
+    text-decoration:underline;   
+}
+}
+   @media (min-width: 576px){
+    .innera{
+    border: 1px solid gray;
+    min-height: 450px;
+    max-height: 600px;
+}
+.card-2a{
+    background-clip: border-box;
+    background-size: cover;
+    height: 172px;
+  }
+.card-2a img{
+    display: none;
+  }
+  .descriptiona{
+    background-image: url(https://www.bpi.com.ph/content/atom/33f50d91-c898-4666-8a69-e09d571c5dcc/content/Images/Content%20Cards/content_card_clients1.jpg?id=01f0419c-48a1-4c22-88a7-ee4437c90b2e);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 172px;
+    padding-bottom: 26px;
+    padding-left: 0px;
+    font: 13px;
+    line-height: 1.6;
+    width: 100%;
+    height: 450px;
 
 }
+  .description-contenta {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 24px;
+    min-height: 200px;
+    width: fit-content;
+    max-width: 444px;
+    margin-bottom: 26px;
 
+  }
+
+.descriptiona h2{
+    font-size: 20px;
+    color:#4a4a4a;
+    text-align:justify;
+    margin: 8px 0px;
+  }
+.descriptiona h3{
+      font-size: 16px;
+      margin-bottom: 3px;
+      color:#9b9b9b;
+  }
+.descriptiona p{
+      font-size: 15px;
+      margin-bottom: 16px;
+      color:#9b9b9b;
+  }
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(163, 36, 36);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+a:hover{
+    text-decoration:underline;   
+}
+   }
 .col{
     float: left;
-    width: calc(100% / 12 * 4);
     font-size: 16px;   
     overflow: hidden;
     padding:12px;
   }
 .inner{
     border: 1px solid gray;
-    height: 400px;
+    min-height: 450px;
 }
 .card-2{
     background-clip: border-box;
@@ -385,9 +472,13 @@ h1 {
     height: 172px;
     width: 100%;
   }
-
+  .description{
+    padding: 24px;
+    font: 16px;
+    line-height: 1.6;
+}
   .description-content {
-    min-height: 170px;
+    min-height: 200px;
   }
 
 .description h2{
@@ -417,13 +508,6 @@ a{
 a:hover{
     text-decoration:underline;   
 }
-
-.description{
-    padding: 24px;
-    font: 16px;
-    line-height: 1.6;
-}
-
 
 /* Awards-Tamargo css */
 #awards{
@@ -561,3 +645,25 @@ h3{
 }
 
 /* glad code */
+
+.my-header1{
+  margin-bottom: 32px;
+}
+.footer{
+  font-size: 16px;
+  line-height: 24px;
+  color: #4a4a4a;
+}
+.footer-padding{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.footer-icon{
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 576px){
+  .footer-center{
+    text-align: center;
+  }
+}
